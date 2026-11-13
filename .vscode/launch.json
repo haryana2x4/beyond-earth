@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "msedge",
+      "request": "launch",
+      "name": "Launch Beyond Earth in Edge (Port 8765)",
+      "url": "http://localhost:8765/",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch Beyond Earth in Chrome (Port 8765)",
+      "url": "http://localhost:8765/",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}

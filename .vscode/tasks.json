@@ -1,0 +1,34 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "dev",
+      "args": ["--", "--port", "8765", "--host", "0.0.0.0"],
+      "problemMatcher": [],
+      "label": "npm: dev (Start Beyond Earth Server on port 8765)",
+      "detail": "Starts Vite development server on port 8765",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "isBackground": true
+    },
+    {
+      "type": "npm",
+      "script": "build",
+      "problemMatcher": ["$tsc"],
+      "label": "npm: build (Compile Production Bundle)",
+      "detail": "Runs tsc --noEmit && node scripts/build.mjs"
+    },
+    {
+      "type": "npm",
+      "script": "preview",
+      "args": ["--", "--port", "8765", "--host", "0.0.0.0"],
+      "problemMatcher": [],
+      "label": "npm: preview (High-Speed Production Server on port 8765)",
+      "detail": "Serves the compiled production build from dist/",
+      "isBackground": true
+    }
+  ]
+}

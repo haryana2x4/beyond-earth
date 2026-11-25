@@ -32,10 +32,9 @@ These six real astronaut portraits are **deliberately not used** as testimonial 
 named, identifiable astronaut's face beside invented quotes would misattribute words to a real
 person. They remain in the folder for editorial use with their true captions.
 
-## Generated portraits
+## Illustrative crew portraits
 
-`portrait-a.jpg` … `portrait-d.jpg` are AI-generated synthetic headshots created for this project
-(ImageGen), then resized and compressed with `sharp`. They depict no real individual, which the
+`portrait-a.jpg` … `portrait-d.jpg` are illustrative synthetic studio portraits created for this project, resized and compressed with `sharp`. They depict no real individual, which the
 returned-crews section states on-page. They are the only avatars used in that section.
 
 ## ORION
